@@ -1,19 +1,24 @@
 # Loan Qualifier App
 *The loan qualifier is an application that seek to approve a user for a home loan. It filters out the inputted data with a series of banks loans requirements data. The app is inspired by the necessity of automate tedious back-end work of any company.*
+
 ---
 
 ## Technologies
 This project is desing in python 3.7 and uses the following packages:
 
 `fire` - for the command line interface.
+
 `questionary` - for interactive user promt.
+
 ---
 
 ## Installation Guide
 Before running the application you need to have the following packages
 
 >`pip install fire`
+
  `pip install questionary`
+ 
 ---
 
 ## Usage
