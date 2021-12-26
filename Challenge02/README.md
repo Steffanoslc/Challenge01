@@ -16,8 +16,7 @@ This project is desing in python 3.7 and uses the following packages:
 Before running the application you need to have the following packages
 
 >`pip install fire`
- 
- >`pip install questionary`
+  >`pip install questionary`
 
 ---
 
