@@ -15,8 +15,9 @@ This project is desing in python 3.7 and uses the following packages:
 ## Installation Guide
 Before running the application you need to have the following packages
 
->`pip install fire`,
->`pip install questionary`
+>`pip install fire`
+ 
+ `pip install questionary`
 
 ---
 
@@ -32,6 +33,7 @@ To use the loan qualifier app, clone the repository and run the **app.py**  and 
  What's your loan amount? <user's loan amount>
  
  What's your home value? <user's home value>
+>
 
 The following is a snipped result 
 ![<example of the returning value of the app>](<Challenge02/example.png>)
