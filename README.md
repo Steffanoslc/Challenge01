@@ -1,1 +1,9 @@
-Hi, this is my solution for the loan analyzer challenge01
+# Fintech Repository
+## Fintech Repository
+### Fintech Repository
+
+
+
+
+Challenges log
+challenge01 submitted
