@@ -17,8 +17,8 @@ Before running the application you need to have the following packages
 
 >`pip install fire`
 
- `pip install questionary`
- 
+>`pip install questionary`
+
 ---
 
 ## Usage
