@@ -97,16 +97,19 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
     bank_data_filtered = filter_debt_to_income(monthly_debt_ratio, bank_data_filtered)
     bank_data_filtered = filter_loan_to_value(loan_to_value_ratio, bank_data_filtered)
 
-    print(f"Found {len(bank_data_filtered)} qualifying loans")
-
     return bank_data_filtered
 
 
 def save_qualifying_loans(qualifying_loans):
-    """Saves the qualifying loans to a CSV file.
+    """Prompts a choice for the user to wether save a file or not
+     the qualifying loans to a CSV file & save the file.
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
+        user_selected: Prompts the question to the user
+        choices: Provide a "Yes" or "No" choice to the user
+        action: save the user choice
+        csvpath: The path for the save file    
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     user_selected = questionary.select(
@@ -120,6 +123,8 @@ def save_qualifying_loans(qualifying_loans):
         csvpath = questionary.text("Please provide a path to save the file").ask()
         csvpath = Path(csvpath)
         save_csv(csvpath, qualifying_loans)
+    else:
+        sys.exit("Goodbye")
 
 def run():
     """The main function for running the script."""
@@ -135,9 +140,13 @@ def run():
         bank_data, credit_score, debt, income, loan_amount, home_value
     )
 
+    if len(qualifying_loans) <=0:
+        sys.exit("Client information does not meet the minimum criteria for a loan")
+    else:
+        print(f"Found {len(qualifying_loans)} qualifying loans")
+
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
-
 
 
 if __name__ == "__main__":
