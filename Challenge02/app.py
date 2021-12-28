@@ -18,11 +18,11 @@ from qualifier.utils.calculators import (
     calculate_loan_to_value_ratio,
 )
 
+
 from qualifier.filters.max_loan_size import filter_max_loan_size
 from qualifier.filters.credit_score import filter_credit_score
 from qualifier.filters.debt_to_income import filter_debt_to_income
 from qualifier.filters.loan_to_value import filter_loan_to_value
-
 
 def load_bank_data():
     """Ask for the file path to the latest banking data and load the CSV file.
@@ -109,8 +109,17 @@ def save_qualifying_loans(qualifying_loans):
         qualifying_loans (list of lists): The qualifying bank loans.
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
-    csvpath = Path("data/qualifying_loans.csv")
-    save_csv(csvpath, qualifying_loans)
+    user_selected = questionary.select(
+        "Would you like to save the file?",
+        choices=["Yes", "No"]
+    ).ask()
+
+    action = user_selected
+
+    if action == "Yes":
+        csvpath = questionary.text("Please provide a path to save the file").ask()
+        csvpath = Path(csvpath)
+        save_csv(csvpath, qualifying_loans)
 
 def run():
     """The main function for running the script."""
@@ -128,6 +137,7 @@ def run():
 
     # Save qualifying loans
     save_qualifying_loans(qualifying_loans)
+
 
 
 if __name__ == "__main__":
