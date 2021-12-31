@@ -44,9 +44,16 @@ Upon launching the application will ask for the following prompts:
 
 ![Client information with results](images/clients_info.png)
 
-* Then the application will provide you with a choice wheter to save the results in a csv file or not if so you would need to provide a path to where to save the desire information:
+* Then the application will provide you with a choice whether to save the results in a csv file or not if so you would need to provide a path to where to save the desire information:
 
 ![Save a csv file or not?](images/save_results.png)
+
+* If the choice is `No` the system will exit with the following messsage:
+
+![No save a file exit](images/nosave_results.png)
+
+* If the client's information doesnot meet the minimum criteria the system will exit with the following message:
+![Client's info no meet criteria](images/no_criteria.png)
 
 Finally the program will end
 
