@@ -1,33 +1,63 @@
 # Project Title
-
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+*The loan qualifier application is a perfect tool for a fintech startup company seeking to automate their busness proccess. The application is a recopilation of requirements by the Business Operation team to solve the day to day calculations and manual data filtering that a employee need to execute in order to verify the client's information with live bank data*
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This is a python command-line interace application witch runs in python 3.7 with the following packages:
+
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entrypoint.
+
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+In order to runn the application you need to first install the following pacakges:
+
+```python
+    pip install fire==0.3.1
+    pip install questionary==1.5.2
+```
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+To use the application please do the following steps:
+
+```
+* Clone the repository in your local machine.
+* Under the data folder replace the existing csv file with your own information, a file with demo information is provided.
+* With python execute the following:
+    python app.py
+```
+Upon launching the application will ask for the following prompts:
+
+* Please provide a path to pull the bank information from:
+
+![Data Path Prompt](Images/data_path.png)
+
+* Please provide the client's information and the application will return the monthly debt to income ratio, the loan to value ratio and the amount of qualifying loans:
+
+![Client information with results](Images/client_info.png)
+
+* Then the application will provide you with a choice wheter to save the results in a csv file or not if so you would need to provide a path to where to save the desire information:
+
+![Save a csv file or not?](Images/save_results.png)
+
+Finally the program will end
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+The loan qualifier was made by Steffano thanks to the Columiba Fintech Bootcamp tutoring team for Module 2 Challenge 02
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Columbia Fintech Bootcamp

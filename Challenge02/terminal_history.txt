@@ -1,0 +1,50 @@
+  553  git status
+  554  git commit -m"Final version with the complete scope of the software requirements and organize code structure"
+  555  git push origin main
+  556  cd ..
+  557  cd ..
+  558  ls
+  559  cd CU-VIRT-FIN-PT-12-2021-U-B/
+  560  ls
+  561  cd 02-Financial-Applications-Python/
+  562  ls
+  563  cd oa/
+  564  ls
+  565  cd 01-Creating_the_Loan_Qualifier_README_File/
+  566  code .
+  567  clear
+  568  cd `
+  569  cd ~
+  570  cd git/
+  571  cd columbia/
+  572  cd CU-VIRT-FIN-PT-12-2021-U-B/
+  573  cd 02-Financial-Applications-Python/
+  574  cd ..
+  575  ls
+  576  cd ..
+  577  ls
+  578  cd Challenges/
+  579  ls
+  580  cd Challenge02/
+  581  cd
+  582  ls
+  583  clear
+  584  cd git/
+  585  cd columbia/
+  586  cd CU-VIRT-FIN-PT-12-2021-U-B/
+  587  ls
+  588  cd ..
+  589  ls
+  590  cd Challenges/
+  591  ls
+  592  cd Challenge02/
+  593  ls
+  594  clear
+  595  ls
+  596  python app.py
+  597  clear
+  598  python app.py
+  599  python app.py
+  600  clear
+  601  git status
+  602  history 50 > terminal_history.txt
