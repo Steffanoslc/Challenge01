@@ -38,15 +38,15 @@ Upon launching the application will ask for the following prompts:
 
 * Please provide a path to pull the bank information from:
 
-![Data Path Prompt](Images/data_path.png)
+![Data Path Prompt](images/data_path.png)
 
 * Please provide the client's information and the application will return the monthly debt to income ratio, the loan to value ratio and the amount of qualifying loans:
 
-![Client information with results](Images/client_info.png)
+![Client information with results](images/client_info.png)
 
 * Then the application will provide you with a choice wheter to save the results in a csv file or not if so you would need to provide a path to where to save the desire information:
 
-![Save a csv file or not?](Images/save_results.png)
+![Save a csv file or not?](images/save_results.png)
 
 Finally the program will end
 
