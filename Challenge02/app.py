@@ -101,15 +101,14 @@ def find_qualifying_loans(bank_data, credit_score, debt, income, loan, home_valu
 
 
 def save_qualifying_loans(qualifying_loans):
-    """Prompts a choice for the user to wether save a file or not
-     the qualifying loans to a CSV file & save the file.
+    """Prompts a choice for the user to whether save or not the qualifying 
+    loans into a CSV file and save the file at the desire location.
 
     Args:
         qualifying_loans (list of lists): The qualifying bank loans.
         user_selected: Prompts the question to the user
         choices: Provide a "Yes" or "No" choice to the user
-        action: save the user choice
-        csvpath: The path for the save file    
+        action: save the user choice in a the variable  
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     user_selected = questionary.select(
