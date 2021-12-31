@@ -42,7 +42,7 @@ Upon launching the application will ask for the following prompts:
 
 * Please provide the client's information and the application will return the monthly debt to income ratio, the loan to value ratio and the amount of qualifying loans:
 
-![Client information with results](images/client_info.png)
+![Client information with results](images/clients_info.png)
 
 * Then the application will provide you with a choice wheter to save the results in a csv file or not if so you would need to provide a path to where to save the desire information:
 

@@ -1,50 +1,50 @@
-  553  git status
-  554  git commit -m"Final version with the complete scope of the software requirements and organize code structure"
-  555  git push origin main
-  556  cd ..
-  557  cd ..
-  558  ls
-  559  cd CU-VIRT-FIN-PT-12-2021-U-B/
-  560  ls
-  561  cd 02-Financial-Applications-Python/
-  562  ls
-  563  cd oa/
-  564  ls
-  565  cd 01-Creating_the_Loan_Qualifier_README_File/
-  566  code .
-  567  clear
-  568  cd `
-  569  cd ~
-  570  cd git/
-  571  cd columbia/
-  572  cd CU-VIRT-FIN-PT-12-2021-U-B/
-  573  cd 02-Financial-Applications-Python/
-  574  cd ..
-  575  ls
-  576  cd ..
-  577  ls
-  578  cd Challenges/
-  579  ls
-  580  cd Challenge02/
-  581  cd
-  582  ls
-  583  clear
-  584  cd git/
-  585  cd columbia/
-  586  cd CU-VIRT-FIN-PT-12-2021-U-B/
-  587  ls
-  588  cd ..
-  589  ls
-  590  cd Challenges/
-  591  ls
-  592  cd Challenge02/
-  593  ls
-  594  clear
-  595  ls
-  596  python app.py
-  597  clear
-  598  python app.py
-  599  python app.py
-  600  clear
-  601  git status
-  602  history 50 > terminal_history.txt
+  501  ls
+  502  cd git
+  503  ls
+  504  cd algotrading/
+  505  ls
+  506  cd td_bots/
+  507  ls
+  508  cd data/
+  509  ls
+  510  touch data.csv
+  511  ls
+  512  cd ..
+  513  clear
+  514  ls
+  515  cd filters/
+  516  touch close_price.py
+  517  cd ..
+  518  ls
+  519  cd ..
+  520  cd ..
+  521  ls
+  522  cd columbia/
+  523  ls
+  524  cd CU-VIRT-FIN-PT-12-2021-U-B/
+  525  cd ..
+  526  cd Challenges/
+  527  ls
+  528  cd Challenge02/
+  529  ls
+  530  code .
+  531  git status
+  532  explorer .
+  533  git add -app.py
+  534  git add app.py
+  535  git status
+  536  git commit -m"Final version with the complete scope of the software requirements and organize code structure"
+  537  git push origin main
+  538  git status
+  539  git add -A
+  540  git status
+  541  git commit -m"Updated readme file with supporting documents"
+  542  git push origin main
+  543  git status
+  544  git add README.md
+  545  git commit -m"Readme image corrections"
+  546  git push origin main
+  547  clear
+  548  git add README.md
+  549  git status
+  550  history 50 > terminal_history.txt
